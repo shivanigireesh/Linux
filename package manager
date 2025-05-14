@@ -1,1 +1,12 @@
+ls -ltr
 
+apt list
+
+apt
+
+to install new packages :
+apt install python3
+
+apt update
+
+apt install python3
