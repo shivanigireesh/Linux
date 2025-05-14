@@ -11,3 +11,17 @@
 >   --env TZ=Asia/Kolkata \
 >   --env LANG=en_US.UTF-8 \
 >   ubuntu:latest /bin/bash
+
+after this run this command:
+
+docker exec -it ubuntu-linux-learning /bin/bash
+           OR
+if u want to use already created one:
+id of my container - b294e5bf4cc36e6294770fb8b5ea08307cadda1107eec4b2f986fe24eb2f52d1
+
+code to go inside :
+
+docker exec -it b294e5bf4cc36e6294770fb8b5ea08307cadda1107eec4b2f986fe24eb2f52d1 /bin/bash
+
+
+
